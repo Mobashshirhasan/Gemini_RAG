@@ -1,6 +1,6 @@
 <h1>Document Chatbot with FAISS and Google Generative AI</h1>
 A powerful document-based question-answering system that uses FAISS (Facebook AI Similarity Search) for efficient vector storage and Google's Generative AI for embeddings and chat completions. This chatbot can process and answer questions from multiple document formats including PDF, DOCX, TXT, and CSV files.
-Features
+<h1>Features</h1>
 
 Multiple Document Format Support:
 
