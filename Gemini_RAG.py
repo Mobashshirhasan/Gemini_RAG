@@ -9,7 +9,7 @@ from langchain_community.document_loaders import PyPDFLoader, TextLoader, CSVLoa
 os.environ["GOOGLE_API_KEY"] = "Enter your key here"
 
 # Define paths
-FILE_PATH = "C:\\AllPythonProjects\\docs"
+FILE_PATH = "Enter your pdf_folder path"
 FAISS_DB_PATH = os.path.join(FILE_PATH, "faiss_index")
 
 embeddings = GoogleGenerativeAIEmbeddings(model="models/embedding-001")
