@@ -33,7 +33,7 @@ Temperature setting of 0.3 for balanced responses
 
 
 
-Prerequisites
+<h1>Prerequisites</h1>
 
 Python 3.x
 Google API Key
