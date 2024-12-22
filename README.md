@@ -46,7 +46,7 @@ pip install unstructured
 pip install python-magic-bin  # For document loading
 Environment Setup
 
-Set your Google API key:
+<h3>Set your Google API key:</h3>
 
 pythonCopyos.environ["GOOGLE_API_KEY"] = "your-api-key-here"
 
