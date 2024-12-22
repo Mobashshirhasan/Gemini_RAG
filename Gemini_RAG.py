@@ -87,7 +87,7 @@ def add_new_files_to_faiss(faiss_index):
         print("No new files found to add to the database.")
 
 
-# Load or create FAISS index
+ # Load or create FAISS index
 def load_or_create_faiss():
     if os.path.exists(FAISS_DB_PATH):
         print("Loading existing FAISS database...")
