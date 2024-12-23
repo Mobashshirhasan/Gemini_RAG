@@ -10,7 +10,7 @@ Text files (TXT)
 CSV files
 
 
-<h1>Efficient Document Processing:</h1>
+<h2>Efficient Document Processing:</h2>
 
 Automatic document splitting
 UTF-8 encoding conversion for text files
