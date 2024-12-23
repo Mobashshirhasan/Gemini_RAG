@@ -106,7 +106,7 @@ Creating temporary converted files
 Ensuring compatibility across different text encodings
 
 Error Handling
-<h3>Robust error handling for:</h3>
+<h3>Robust error handling for: </h3>
 
 File loading issues
 API communication errors
