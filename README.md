@@ -25,7 +25,7 @@ Document metadata tracking
 Persistent storage of embeddings
 
 
-<h3>Google AI Integration:
+<h3>Google AI Integration:</h3>
 
 Uses Google's Generative AI embeddings (models/embedding-001)
 Powered by Gemini 1.5 Pro for chat completions
