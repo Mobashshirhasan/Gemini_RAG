@@ -18,14 +18,14 @@ Incremental updates to the vector database
 File change detection to avoid reprocessing unchanged documents
 
 
-Vector Search Integration:
+<h3>Vector Search Integration:</h3>
 
 FAISS-based vector storage for efficient similarity search
 Document metadata tracking
 Persistent storage of embeddings
 
 
-Google AI Integration:
+<h3>Google AI Integration:
 
 Uses Google's Generative AI embeddings (models/embedding-001)
 Powered by Gemini 1.5 Pro for chat completions
@@ -50,7 +50,7 @@ Environment Setup
 
 pythonCopyos.environ["GOOGLE_API_KEY"] = "your-api-key-here"
 
-Configure the document directory:
+<h3>Configure the document directory:</h3>
 
 pythonCopyFILE_PATH = "path/to/your/documents"
 Usage
@@ -60,7 +60,7 @@ Run the chatbot:
 
 bashCopypython your_script_name.py
 
-Start asking questions about your documents:
+<h3>Start asking questions about your documents:</h3>
 
 CopyAsk a question: What does the financial report say about Q3 earnings?
 
@@ -68,21 +68,21 @@ Type 'exit' or 'quit' to end the session
 
 How It Works
 
-Document Processing:
+<h3>Document Processing:</h3>
 
 Documents are loaded and split into chunks
 Text files are automatically converted to UTF-8 encoding
 Each document chunk is processed with metadata including source and file size
 
 
-Vector Database Management:
+<h3>Vector Database Management:</h3>
 
 Creates a new FAISS index if none exists
 Updates existing index with new or modified documents
 Maintains document metadata for efficient updates
 
 
-Query Processing:
+<h3>Query Processing:</h3>
 
 Converts user questions into embeddings
 Retrieves relevant document chunks using FAISS
@@ -106,7 +106,7 @@ Creating temporary converted files
 Ensuring compatibility across different text encodings
 
 Error Handling
-Robust error handling for:
+<h3>Robust error handling for:</h3>
 
 File loading issues
 API communication errors
