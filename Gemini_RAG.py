@@ -38,7 +38,7 @@ def load_documents(file_path):
         return []
     return loader.load_and_split()
 
- # Retrieve metadata from existing FAISS index
+# Retrieve metadata from existing FAISS index
 def get_existing_files_metadata(faiss_index):
     existing_files_metadata = {}
     for doc_id, doc_meta in faiss_index.docstore._dict.items():
