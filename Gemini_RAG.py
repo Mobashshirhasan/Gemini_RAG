@@ -120,7 +120,6 @@ def get_chatbot_response(query, chat_history=[]):
     )
 
     try:
-
         # Get the AI response
         response = response_chain.invoke({"question": query, "chat_history": chat_history})
 
