@@ -8,7 +8,7 @@ from langchain_community.document_loaders import PyPDFLoader, TextLoader, CSVLoa
 # Set your OpenAI API key in environment variable OPENAI_API_KEY
 os.environ["GOOGLE_API_KEY"] = "Enter your key here"
 
-# Define paths
+#  Define paths
 FILE_PATH = "Enter your pdf_folder path"
 FAISS_DB_PATH = os.path.join(FILE_PATH, "faiss_index")
 
