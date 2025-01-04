@@ -21,7 +21,7 @@ def convert_to_utf8(file_path):
         with open(temp_file, "w", encoding="utf-8") as target_file:
             target_file.write(source_file.read())
     return temp_file
-#  Function to load and split documents
+# Function to load and split documents
 def load_documents(file_path):
     file_extension = os.path.splitext(file_path)[1].lower()
     if file_extension == ".pdf":
