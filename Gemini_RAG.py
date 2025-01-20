@@ -1,4 +1,4 @@
- import os
+import os
 from langchain_community.vectorstores import FAISS
 from langchain.chains import ConversationalRetrievalChain
 import codecs
