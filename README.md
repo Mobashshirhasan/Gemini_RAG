@@ -60,7 +60,7 @@ Run the chatbot:
 
 bashCopypython your_script_name.py
 
-<h3>Start asking questions about your documents: </h3>
+<h3>Start asking questions about your documents : </h3>
 
 CopyAsk a question: What does the financial report say about Q3 earnings?
 
