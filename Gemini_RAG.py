@@ -5,7 +5,7 @@ import codecs
 from langchain_google_genai import GoogleGenerativeAIEmbeddings, ChatGoogleGenerativeAI
 from langchain_community.document_loaders import PyPDFLoader, TextLoader, CSVLoader,UnstructuredWordDocumentLoader as DocxLoader
 
- #  Set your OpenAI API key in environment variable OPENAI_API_KEY
+ # Set your OpenAI API key in environment variable OPENAI_API_KEY
 os.environ["GOOGLE_API_KEY"] = "Enter your key here"
 
 # Define paths
